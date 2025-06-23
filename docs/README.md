@@ -4,7 +4,7 @@
 
 | DOCUMENT | DESCRIPTION |
 | -------- | ----------- |
-| [`docs/PROBLEMS.md`](/docs/PROBLEMS.md) | Problems statements. |
+| [`docs/PROBLEMS.md`](/docs/PROBLEMS.md) | Problem statements. |
 
 ## Solutions
 

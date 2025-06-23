@@ -1,9 +1,9 @@
-# Problems from [leetcode.com](https://leetcode.com/)
+# Problems from [leetcode.com](https://leetcode.com/) (2)
 
 - [lc-easy-1](#lc-easy-1) ("Two Sum")
 - [lc-medium-1](#lc-medium-1) ("Add Two Numbers")
 
-# My problems
+# My problems (1)
 
 - [my-easy-1](#my-easy-1) ("Happy Who?")
 
@@ -13,7 +13,7 @@ Given an array of integers nums and an integer target, return indices of the two
 
 # lc-medium-1
 
-You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list. You may assume the two numbers do not contain any leading zero, except the number 0 itself. Example: 2->4->3 (number 342), 5->6->4 (number 465) should return a linked list 7->0->8 (342 + 465 = 807).
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list. You may assume the two numbers do not contain any leading zero, except the number 0 itself. Example: 2 > 4 > 3 (number 342), 5 > 6 > 4 (number 465) should return a linked list 7 > 0 > 8 (342 + 465 = 807).
 
 ```cpp
 struct ListNode {

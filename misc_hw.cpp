@@ -1,11 +1,10 @@
-#include <iostream>
+#include "markers.h"
 
 int main()
 {
-    std::cout << "__begin_main" << std::endl;
+    __BEGIN
 
     std::cout << "hello, world" << std::endl;
 
-    std::cout << "__end_main" << std::endl;
-    return 0;
+    __END
 }

@@ -1,6 +1,7 @@
 // #lc-easy-1
 
-#include <iostream>
+#include "markers.h"
+
 #include <vector>
 #include <utility>
 #include <unordered_map>
@@ -10,7 +11,7 @@ static std::pair<int, int> run_map(std::vector<int> arr, int target);
 
 int main()
 {
-    std::cout << "__begin_main" << std::endl;
+    __BEGIN
 
     auto result = run_brute_force({2, 7, 11, 15}, 9);
     std::cout << "(" << result.first << ", " << result.second << ")" << std::endl;
@@ -27,8 +28,7 @@ int main()
     result = run_map({1, 3}, 6);
     std::cout << "(" << result.first << ", " << result.second << ")" << std::endl;
 
-    std::cout << "__end_main" << std::endl;
-    return 0;
+    __END
 }
 
 static constexpr std::pair<int, int> not_found()

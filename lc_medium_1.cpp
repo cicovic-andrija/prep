@@ -1,6 +1,6 @@
 // #lc-medium-1
 
-#include <iostream>
+#include "markers.h"
 
 struct ListNode {
     int val;
@@ -22,7 +22,7 @@ static ListNode *run(ListNode *head_1, ListNode *head_2);
 
 int main()
 {
-    std::cout << "__begin_main" << std::endl;
+    __BEGIN
 
     ListNode *result = run(
         new ListNode(2, new ListNode(4, new ListNode(3))),
@@ -38,8 +38,7 @@ int main()
     result->Print();
     std::cout << std::endl;
 
-    std::cout << "__end_main" << std::endl;
-    return 0;
+    __END
 }
 
 static ListNode *run(ListNode *node_1, ListNode *node_2)
