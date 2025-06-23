@@ -1,0 +1,32 @@
+// VSCode task configuration.
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "BuildCurrent",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}/bin/${fileBasenameNoExtension}"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "RunCurrent",
+      "type": "shell",
+      "command": "${fileDirname}/bin/${fileBasenameNoExtension}",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
