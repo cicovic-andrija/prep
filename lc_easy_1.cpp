@@ -1,4 +1,4 @@
-// LEETCODE.md#lc-easy-1
+// #lc-easy-1
 
 #include <iostream>
 #include <vector>

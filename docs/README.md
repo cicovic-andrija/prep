@@ -4,12 +4,13 @@
 
 | DOCUMENT | DESCRIPTION |
 | -------- | ----------- |
-| `docs/LEETCODE.md` | Problems statements ([leetcode.com](https://leetcode.com/)). |
+| [`docs/PROBLEMS.md`](/docs/PROBLEMS.md) | Problems statements. |
 
 ## Solutions
 
 | FILE NAME (FORMAT) | DESCRIPTION |
 | ------------------ | ----------- |
-| `lc_{diff}_{num}.cpp` | Solution for `lc-{diff}-{num}` in `docs/LEETCODE.md`. |
+| `lc_{diff}_{num}.cpp` | Solution for `lc-{diff}-{num}` in `docs/PROBLEMS.md`. |
+| `my_{diff}_{num}.cpp` | Solution for `my-{diff}-{num}` in `docs/PROBLEMS.md`. |
 | `misc_*.cpp` | Misc. programs / C++ experiments. |
 | `*.cpp` | Utility functions and classes. |

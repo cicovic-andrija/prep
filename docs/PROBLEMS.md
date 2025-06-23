@@ -1,7 +1,11 @@
-# nav
+# Problems from [leetcode.com](https://leetcode.com/)
 
-- [lc-easy-1](#lc-easy-1)
-- [lc-medium-1](#lc-medium-1)
+- [lc-easy-1](#lc-easy-1) ("Two Sum")
+- [lc-medium-1](#lc-medium-1) ("Add Two Numbers")
+
+# My problems
+
+- [my-easy-1](#my-easy-1) ("Happy Who?")
 
 # lc-easy-1
 
@@ -20,3 +24,7 @@ struct ListNode {
      ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 ```
+
+# my-easy-1
+
+Given a positive integer k, determine whether k is a happy number. Any number that reduces to one when you take the sum of the square of its digits and continue iterating until it yields 1, is a happy number.

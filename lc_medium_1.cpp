@@ -1,4 +1,4 @@
-// LEETCODE.md#lc-medium-1
+// #lc-medium-1
 
 #include <iostream>
 
