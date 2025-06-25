@@ -5,6 +5,7 @@
 | DOCUMENT | DESCRIPTION |
 | -------- | ----------- |
 | [`docs/PROBLEMS.md`](/docs/PROBLEMS.md) | Problem statements. |
+| [`old_c/README.md`](/old_c/README.md) | Usage instructions for my old C interview prep platform. |
 
 ## Solutions
 
