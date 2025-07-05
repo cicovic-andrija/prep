@@ -4,14 +4,14 @@
 
 #include <set>
 
-static int digisum_squared(int k);
-static bool is_happy(int k);
+int digisum_squared(int k);
+bool is_happy(int k);
 
 int main()
 {
     __BEGIN
 
-    std::cout << is_happy(1) << std::endl;   // true
+    std::cout << is_happy(1) << std::endl; // true
     std::cout << is_happy(313) << std::endl; // true
     std::cout << is_happy(331) << std::endl; // true
     std::cout << is_happy(367) << std::endl; // true
@@ -23,7 +23,7 @@ int main()
     __END
 }
 
-static int digisum_squared(int k)
+int digisum_squared(int k)
 {
     int sum = 0;
     while (k > 0) {
@@ -33,7 +33,7 @@ static int digisum_squared(int k)
     return sum;
 }
 
-static bool is_happy(int k)
+bool is_happy(int k)
 {
     if (k < 1) return false;
 

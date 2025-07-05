@@ -6,8 +6,9 @@
 #include <utility>
 #include <unordered_map>
 
-static std::pair<int, int> run_brute_force(std::vector<int> arr, int target);
-static std::pair<int, int> run_map(std::vector<int> arr, int target);
+// Passed 63 test cases on LC.
+std::pair<int, int> run_brute_force(std::vector<int> arr, int target);
+std::pair<int, int> run_map(std::vector<int> arr, int target);
 
 int main()
 {
@@ -31,13 +32,13 @@ int main()
     __END
 }
 
-static constexpr std::pair<int, int> not_found()
+constexpr std::pair<int, int> not_found()
 {
     return std::make_pair(-1, -1);
 }
 
 // O(n^2)
-static std::pair<int, int> run_brute_force(std::vector<int> arr, int target)
+std::pair<int, int> run_brute_force(std::vector<int> arr, int target)
 {
     int n = arr.size();
     if (n < 2)
@@ -52,7 +53,7 @@ static std::pair<int, int> run_brute_force(std::vector<int> arr, int target)
 }
 
 // O(n)
-static std::pair<int, int> run_map(std::vector<int> arr, int target)
+std::pair<int, int> run_map(std::vector<int> arr, int target)
 {
     int n = arr.size();
     if (n < 2)

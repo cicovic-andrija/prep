@@ -1,24 +1,10 @@
 // #lc-medium-1
 
 #include "markers.h"
+#include "list_node.h"
 
-struct ListNode {
-    int val;
-    ListNode *next;
-
-    ListNode(): val(0), next(nullptr) {}
-    ListNode(int v): val(v), next(nullptr) {}
-    ListNode(int v, ListNode *n): val(v), next(n) {}
-    void Print() const {
-        std::cout << val;
-        if (next) {
-            std::cout << " -> ";
-            next->Print();
-        }
-    }
-};
-
-static ListNode *run(ListNode *head_1, ListNode *head_2);
+// Passed 1569 test cases on LC.
+ListNode *run(ListNode *head_1, ListNode *head_2);
 
 int main()
 {
@@ -28,20 +14,34 @@ int main()
         new ListNode(2, new ListNode(4, new ListNode(3))),
         new ListNode(5, new ListNode(6, new ListNode(4)))
     );
-    result->Print();
+    print_list(result);
     std::cout << std::endl;
 
     result = run(
         new ListNode(9, new ListNode(9, new ListNode(9))),
         new ListNode(1)
     );
-    result->Print();
+    print_list(result);
+    std::cout << std::endl;
+
+    result = run(
+        new ListNode(9, new ListNode(9, new ListNode(9))),
+        new ListNode(0)
+    );
+    print_list(result);
+    std::cout << std::endl;
+
+    result = run(
+        new ListNode(0),
+        new ListNode(0)
+    );
+    print_list(result);
     std::cout << std::endl;
 
     __END
 }
 
-static ListNode *run(ListNode *node_1, ListNode *node_2)
+ListNode *run(ListNode *node_1, ListNode *node_2)
 {
     if (!node_1 || !node_2) return nullptr;
 
