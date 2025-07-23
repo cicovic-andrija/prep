@@ -15,6 +15,7 @@
 | ✅ | Sort Colors | [lc-medium-5](#lc-medium-5) | [lc_medium_5.cpp](/lc_medium_5.cpp) |
 | ✅ | Next Permutation | [lc-medium-6](#lc-medium-6) | [lc_medium_6.cpp](/lc_medium_6.cpp) |
 | 🐉 | Simplify Path | [lc-medium-7](#lc-medium-7) | [lc_medium_7.cpp](/lc_medium_7.cpp) |
+| 🐉 | Simplify Path | [lc-medium-87](#lc-medium-8) | [lc_medium_8.cpp](/lc_medium_8.cpp) |
 | ✅ | Trapping Rain Water | [lc-hard-1](#lc-hard-1) | [lc_hard_1.cpp](/lc_hard_1.cpp) |
 | ✅ | Merge k Sorted Lists | [lc-hard-2](#lc-hard-2) | [lc_hard_2.cpp](/lc_hard_2.cpp) |
 | ✅ | Largest Rectangle in Histogram | [lc-hard-3](#lc-hard-3) | [lc_hard_3.cpp](/lc_hard_3.cpp) |
@@ -74,7 +75,27 @@ A permutation of an array of integers is an arrangement of its members into a se
 
 # lc-medium-7
 
+You are given an absolute path for a Unix-style file system, which always begins with a slash '/'. Your task is to transform this absolute path into its simplified canonical path. The rules of a Unix-style file system are as follows:
 
+- A single period '.' represents the current directory.
+- A double period '..' represents the previous/parent directory.
+- Multiple consecutive slashes such as '//' and '///' are treated as a single slash '/'.
+- Any sequence of periods that does not match the rules above should be treated as a valid directory or file name. For example, '...' and '....' are valid directory or file names.
+
+The simplified canonical path should follow these rules:
+
+- The path must start with a single slash '/'.
+- Directories within the path must be separated by exactly one slash '/'.
+- The path must not end with a slash '/', unless it is the root directory.
+- The path must not have any single or double periods ('.' and '..') used to denote current or parent directories.
+
+Return the simplified canonical path.
+
+# lc-medium-8
+
+A conveyor belt has packages that must be shipped from one port to another within d days. The i-th package on the conveyor belt has a weight of weights[i]. Each day, we load the ship with packages on the conveyor belt (in the order given by array weights). We may not load more weight than the maximum weight capacity of the ship. Return the least weight capacity of the ship that will result in all the packages on the conveyor belt being shipped within d days. Note that the cargo must be shipped in the order given
+
+Example: input: weights = [1,2,3,4,5,6,7,8,9,10], d = 5 output: 15
 
 # lc-hard-1
 
@@ -98,7 +119,7 @@ Given an array of integers representing the histogram's bar height where the wid
 
 Given the head of a linked list, reverse the nodes of the list, k nodes at a time, and return the modified list. Parameter k is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of k then surplus nodes at the end should remain not reversed. Do not alter the values in the list's nodes. Use definitions from [list_node.h](/list_node.h).
 
-Example: input: 1-2-3-4-5, k=2 output: 2-1-4-3-5
+Example: input: 1-2-3-4-5, k = 2 output: 2-1-4-3-5
 
 # my-easy-1
 
