@@ -10,16 +10,18 @@
 | ✅ | Ugly Number (I) | [lc-easy-4](#lc-easy-4) | [lc_easy_4.cpp](/lc_easy_4.cpp) |
 | ✅ | Add Two Numbers | [lc-medium-1](#lc-medium-1) | [lc_medium_1.cpp](/lc_medium_1.cpp) |
 | ✅ | Factorial Trailing Zeroes | [lc-medium-2](#lc-medium-2) | [lc_medium_2.cpp](/lc_medium_2.cpp) |
-| 🐉 | Ugly Number (II) | [lc-medium-3](#lc-medium-3) | [lc_medium_3.cpp](/lc_medium_3.cpp) |
+| ✅ | Ugly Number (II) | [lc-medium-3](#lc-medium-3) | [lc_medium_3.cpp](/lc_medium_3.cpp) |
 | ✅ | Min. Rectangles to Cover Points | [lc-medium-4](#lc-medium-4) | [lc_medium_4.cpp](/lc_medium_4.cpp) |
 | ✅ | Sort Colors | [lc-medium-5](#lc-medium-5) | [lc_medium_5.cpp](/lc_medium_5.cpp) |
 | ✅ | Next Permutation | [lc-medium-6](#lc-medium-6) | [lc_medium_6.cpp](/lc_medium_6.cpp) |
-| 🐉 | Simplify Path | [lc-medium-7](#lc-medium-7) | [lc_medium_7.cpp](/lc_medium_7.cpp) |
-| 🐉 | Simplify Path | [lc-medium-87](#lc-medium-8) | [lc_medium_8.cpp](/lc_medium_8.cpp) |
+| ✅ | Simplify Path | [lc-medium-7](#lc-medium-7) | [lc_medium_7.cpp](/lc_medium_7.cpp) |
+| 🐉 | Ship Packages Within D Days | [lc-medium-8](#lc-medium-8) | [lc_medium_8.cpp](/lc_medium_8.cpp) |
 | ✅ | Trapping Rain Water | [lc-hard-1](#lc-hard-1) | [lc_hard_1.cpp](/lc_hard_1.cpp) |
 | ✅ | Merge k Sorted Lists | [lc-hard-2](#lc-hard-2) | [lc_hard_2.cpp](/lc_hard_2.cpp) |
 | ✅ | Largest Rectangle in Histogram | [lc-hard-3](#lc-hard-3) | [lc_hard_3.cpp](/lc_hard_3.cpp) |
 | ✅ | Reverse Nodes in k-Groups | [lc-hard-4](#lc-hard-4) | [lc_hard_4.cpp](/lc_hard_4.cpp) |
+| 🐉 | Median of Two Sorted Arrays | [lc-hard-5](#lc-hard-5) | [lc_hard_5.cpp](/lc_hard_5.cpp) |
+| 🐉 | N-Queens | [lc-hard-6](#lc-hard-6) | [lc_hard_6.cpp](/lc_hard_6.cpp) |
 | ✅ | Happy Who? | [my-easy-1](#my-easy-1) | [my_easy_1.cpp](/my_easy_1.cpp) |
 | ✅ | Sorting (I) | [my-easy-2](#my-easy-2) | [my_easy_2.cpp](/my_easy_2.cpp) |
 | ✅ | Binary Search | [my-easy-3](#my-easy-3) | [my_easy_3.cpp](/my_easy_3.cpp) |
@@ -89,13 +91,14 @@ The simplified canonical path should follow these rules:
 - The path must not end with a slash '/', unless it is the root directory.
 - The path must not have any single or double periods ('.' and '..') used to denote current or parent directories.
 
-Return the simplified canonical path.
+Return the simplified canonical path. Assume the given path is valid.
 
 # lc-medium-8
 
-A conveyor belt has packages that must be shipped from one port to another within d days. The i-th package on the conveyor belt has a weight of weights[i]. Each day, we load the ship with packages on the conveyor belt (in the order given by array weights). We may not load more weight than the maximum weight capacity of the ship. Return the least weight capacity of the ship that will result in all the packages on the conveyor belt being shipped within d days. Note that the cargo must be shipped in the order given
+A conveyor belt has packages that must be shipped from one port to another within d days. The i-th package on the conveyor belt has a weight of weights[i]. Each day, we load the ship with packages on the conveyor belt (in the order given by array weights). We may not load more weight than the maximum weight capacity of the ship. Return the least weight capacity of the ship that will result in all the packages on the conveyor belt being shipped within d days. Note that the cargo must be shipped in the order given.
 
 Example: input: weights = [1,2,3,4,5,6,7,8,9,10], d = 5 output: 15
+Example: input: weights = [3,2,2,4,1,4], d = 3 output: 6
 
 # lc-hard-1
 
