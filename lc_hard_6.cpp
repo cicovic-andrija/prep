@@ -2,6 +2,13 @@
 
 #include "markers.h"
 
+#include <string>
+#include <vector>
+using std::vector;
+using std::string;
+
+vector<vector<string>> nqueens(int N);
+
 int main()
 {
     __BEGIN
@@ -9,4 +16,9 @@ int main()
 
 
     __END
+}
+
+vector<vector<string>> nqueens(int N)
+{
+
 }

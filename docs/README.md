@@ -34,6 +34,7 @@
   - Various sorting algorithms (selection, insertion, quick, ...).
   - Backtracking algorithms (e.g. N-Queens problem).
   - Search / selection algorithms (binary search, QuickSelect, greedy search).
+    - Example: [Ship Packages Within D Days](/docs/PROBLEMS.md#lc-medium-8).
   - Binary heap buildout (top-k elements group of problems).
   - Matrix operations (multiplication, rotation, transposition, ...).
   - Linked list operations.
