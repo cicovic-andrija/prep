@@ -18,6 +18,10 @@
 | ✅ | Ship Packages Within D Days | [lc-medium-8](#lc-medium-8) | [lc_medium_8.cpp](/lc_medium_8.cpp) |
 | ✅ | Gas Stations | [lc-medium-9](#lc-medium-9) | [lc_medium_9.cpp](/lc_medium_9.cpp) |
 | ✅ | List Clone With A Random Pointer | [lc-medium-10](#lc-medium-10) | [lc_medium_10.cpp](/lc_medium_10.cpp) |
+| ✅ | Longest Palindrome | [lc-medium-11](#lc-medium-11) | [lc_medium_11.cpp](/lc_medium_11.cpp) |
+| ⚠️ | Longest Common Subsequence | [lc-medium-12](#lc-medium-12) | [lc_medium_12.cpp](/lc_medium_12.cpp) |
+| ✅ | Reverse Words | [lc-medium-13](#lc-medium-13) | [lc_medium_13.cpp](/lc_medium_13.cpp) |
+| ✅ | Generate Parentheses | [lc-medium-14](#lc-medium-14) | [lc_medium_14.cpp](/lc_medium_14.cpp) |
 | ✅ | Trapping Rain Water | [lc-hard-1](#lc-hard-1) | [lc_hard_1.cpp](/lc_hard_1.cpp) |
 | ✅ | Merge k Sorted Lists | [lc-hard-2](#lc-hard-2) | [lc_hard_2.cpp](/lc_hard_2.cpp) |
 | ✅ | Largest Rectangle in Histogram | [lc-hard-3](#lc-hard-3) | [lc_hard_3.cpp](/lc_hard_3.cpp) |
@@ -119,6 +123,24 @@ struct Node {
     Node(int v): val(v), next(nullptr), rand(nullptr) {}
 };
 ```
+
+# lc-medium-11
+
+Given a string s, return the longest palindromic substring of s. String s contains only lowercase English characters.
+
+# lc-medium-12
+
+Given two strings s1 and s2, return the length of their longest common subsequence. If there is no common subsequence, return 0. A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters. For example, "ace" is a subsequence of "abcde". A common subsequence of two strings is a subsequence that appears in both strings. Strings consist only of lowercase English characters.
+
+# lc-medium-13
+
+Given an input string s, reverse the order of the words. A word is defined as a sequence of non-space characters. The words in s will be separated by at least one space. Return a string of the words in reverse order concatenated by a single space. Note that s may contain leading or trailing spaces or multiple spaces between two words. The returned string should only have a single space separating the words. Do not include any extra spaces. The string contains English letters, digits, and spaces.
+
+# lc-medium-14
+
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+Example: input: n = 3 output: ["((()))","(()())","(())()","()(())","()()()"]
 
 # lc-hard-1
 
