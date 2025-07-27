@@ -28,6 +28,7 @@
 | ✅ | Reverse Nodes in k-Groups | [lc-hard-4](#lc-hard-4) | [lc_hard_4.cpp](/lc_hard_4.cpp) |
 | ⚠️ | Median of Two Sorted Arrays | [lc-hard-5](#lc-hard-5) | [lc_hard_5.cpp](/lc_hard_5.cpp) |
 | 🐉 | N-Queens | [lc-hard-6](#lc-hard-6) | [lc_hard_6.cpp](/lc_hard_6.cpp) |
+| 🐉 | Candy | [lc-hard-7](#lc-hard-7) | [lc_hard_7.cpp](/lc_hard_7.cpp) |
 | ✅ | Happy Who? | [my-easy-1](#my-easy-1) | [my_easy_1.cpp](/my_easy_1.cpp) |
 | ✅ | Sorting (I) | [my-easy-2](#my-easy-2) | [my_easy_2.cpp](/my_easy_2.cpp) |
 | ✅ | Simple Binary Search | [my-easy-3](#my-easy-3) | [my_easy_3.cpp](/my_easy_3.cpp) |
@@ -177,6 +178,10 @@ Example: input: nums1 = [1,2], nums2 = [3,4] output: 2.5
 The N-Queens puzzle is the problem of placing N queens on an NxN chessboard such that no two queens attack each other. Given an integer N, return all distinct solutions to the N-Queens puzzle. You may return the answer in any order. Each solution contains a distinct board configuration of the N-Queens placement, where 'Q' and '.' both indicate a queen and an empty space, respectively.
 
 Example: input: n = 4 output: [[".Q..","...Q","Q...","..Q."],["..Q.","Q...","...Q",".Q.."]] (2 solutions)
+
+# lc-hard-7
+
+There are n children standing in a line. Each child is assigned a rating value given in the integer array ratings. You are giving candies to these children subjected to the following requirements: (1) each child must have at least one candy, and (2) children with a higher rating get more candies than their neighbors. Return the minimum number of candies you need to have to distribute the candies to the children.
 
 # my-easy-1
 
