@@ -6,7 +6,8 @@
 #include <vector>
 using std::vector;
 
-// Passed XXX test cases on LC.
+// Passed 49 test cases on LC.
+int allocate_candy_optimized(vector<int> &&ratings);
 int allocate_candy_slightly_optimized(vector<int> &&ratings);
 int allocate_candy_brute_force(vector<int> &&ratings);
 
@@ -14,14 +15,47 @@ int main()
 {
     __BEGIN
 
-    std::cout << allocate_candy_brute_force({ 1, 0, 2 }) << std::endl;
-    std::cout << allocate_candy_brute_force({ 1, 2, 2 }) << std::endl;
-    std::cout << allocate_candy_slightly_optimized({ 1, 3, 2, 2, 1 }) << std::endl;
-    std::cout << allocate_candy_slightly_optimized({ 1, 2, 87, 87, 87, 2, 1 }) << std::endl;
-    std::cout << allocate_candy_slightly_optimized({ 1, 6, 10, 8, 7, 3, 2 }) << std::endl;
-    std::cout << allocate_candy_slightly_optimized({ 0, 1, 2, 5, 3, 2, 7 }) << std::endl;
+    std::cout << allocate_candy_brute_force({ 1, 0, 2 }) << std::endl; // 5
+    std::cout << allocate_candy_brute_force({ 1, 2, 2 }) << std::endl; // 4
+    std::cout << allocate_candy_slightly_optimized({ 1, 3, 2, 2, 1 }) << std::endl; // 7
+    std::cout << allocate_candy_slightly_optimized({ 1, 2, 87, 87, 87, 2, 1 }) << std::endl; // 13
+    std::cout << allocate_candy_slightly_optimized({ 1, 6, 10, 8, 7, 3, 2 }) << std::endl; // 18
+    std::cout << allocate_candy_optimized({ 0, 1, 2, 5, 3, 2, 7 }) << std::endl; // 15
+    std::cout << allocate_candy_optimized({ 1, 2, 3, 4, 2, 1 }) << std::endl; // 13
 
     __END
+}
+
+int allocate_candy_optimized(vector<int> &&ratings)
+{
+    int n = ratings.size();
+    if (n < 2) return n;
+
+    int candy = n, i = 1;
+    while (i < n) {
+        if (ratings[i] == ratings[i-1]) {
+            ++i;
+            continue;
+        }
+
+        int peak = 0; // "ascending"
+        while (ratings[i] > ratings[i-1]) {
+            ++peak;
+            candy += peak;
+            ++i;
+            if (i == n) return candy;
+        }
+
+        int valley = 0; // "descending"
+        while (i < n && ratings[i] < ratings[i-1]) {
+            ++valley;
+            candy += valley;
+            ++i;
+        }
+        candy -= std::min(peak, valley);
+    }
+
+    return candy;
 }
 
 int allocate_candy_slightly_optimized(vector<int> &&ratings)

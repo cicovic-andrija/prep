@@ -22,13 +22,14 @@
 | ⚠️ | Longest Common Subsequence | [lc-medium-12](#lc-medium-12) | [lc_medium_12.cpp](/lc_medium_12.cpp) |
 | ✅ | Reverse Words | [lc-medium-13](#lc-medium-13) | [lc_medium_13.cpp](/lc_medium_13.cpp) |
 | ✅ | Generate Parentheses | [lc-medium-14](#lc-medium-14) | [lc_medium_14.cpp](/lc_medium_14.cpp) |
+| ✅ | Letter Combinations of a Phone Number | [lc-medium-15](#lc-medium-15) | [lc_medium_15.cpp](/lc_medium_15.cpp) |
 | ✅ | Trapping Rain Water | [lc-hard-1](#lc-hard-1) | [lc_hard_1.cpp](/lc_hard_1.cpp) |
 | ✅ | Merge k Sorted Lists | [lc-hard-2](#lc-hard-2) | [lc_hard_2.cpp](/lc_hard_2.cpp) |
 | ✅ | Largest Rectangle in Histogram | [lc-hard-3](#lc-hard-3) | [lc_hard_3.cpp](/lc_hard_3.cpp) |
 | ✅ | Reverse Nodes in k-Groups | [lc-hard-4](#lc-hard-4) | [lc_hard_4.cpp](/lc_hard_4.cpp) |
 | ⚠️ | Median of Two Sorted Arrays | [lc-hard-5](#lc-hard-5) | [lc_hard_5.cpp](/lc_hard_5.cpp) |
 | 🐉 | N-Queens | [lc-hard-6](#lc-hard-6) | [lc_hard_6.cpp](/lc_hard_6.cpp) |
-| 🐉 | Candy | [lc-hard-7](#lc-hard-7) | [lc_hard_7.cpp](/lc_hard_7.cpp) |
+| ✅ | Candy | [lc-hard-7](#lc-hard-7) | [lc_hard_7.cpp](/lc_hard_7.cpp) |
 | ✅ | Happy Who? | [my-easy-1](#my-easy-1) | [my_easy_1.cpp](/my_easy_1.cpp) |
 | ✅ | Sorting (I) | [my-easy-2](#my-easy-2) | [my_easy_2.cpp](/my_easy_2.cpp) |
 | ✅ | Simple Binary Search | [my-easy-3](#my-easy-3) | [my_easy_3.cpp](/my_easy_3.cpp) |
@@ -142,6 +143,21 @@ Given an input string s, reverse the order of the words. A word is defined as a 
 Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 
 Example: input: n = 3 output: ["((()))","(()())","(())()","()(())","()()()"]
+
+# lc-medium-15
+
+Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent. Return the answer in any order. A mapping of digits to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters:
+
+- 2: a, b, c
+- 3: d, e, f
+- 4: g, h, i
+- 5: j, k, l
+- 6: m, n, o
+- 7: p, q, r, s
+- 8: t, u, v
+- 9: w, x, y, z
+
+Example: input: digits = "23" output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
 
 # lc-hard-1
 
