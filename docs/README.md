@@ -48,7 +48,6 @@
 - Side Task #1: C++
   - Go over syntax to catch up on forgotten details.
   - Research most commonly used APIs from STL.
-  - Good resource: _Effective STL_ book.
 - Side Task #2: Explore some of the common patterns:
   - Top K elements.
   - Merge K sorted collections.
