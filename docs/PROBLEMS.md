@@ -33,6 +33,8 @@
 | ✅ | Happy Who? | [my-easy-1](#my-easy-1) | [my_easy_1.cpp](/my_easy_1.cpp) |
 | ✅ | Sorting (I) | [my-easy-2](#my-easy-2) | [my_easy_2.cpp](/my_easy_2.cpp) |
 | ✅ | Simple Binary Search | [my-easy-3](#my-easy-3) | [my_easy_3.cpp](/my_easy_3.cpp) |
+| ✅ | Floyd's Cycle Detection | [my-easy-4](#my-easy-4) | [my_easy_4.cpp](/my_easy_4.cpp) |
+| ✅ | Binary Tree Operations | [my-easy-5](#my-easy-5) | [my_easy_5.cpp](/my_easy_5.cpp) |
 | ✅ | Matrix Rotation | [my-medium-1](#my-medium-1) | [my_medium_1.cpp](/my_medium_1.cpp) |
 | ✅ | Sorting (II)  | [my-medium-2](#my-medium-2) | [my_medium_2.cpp](/my_medium_2.cpp) |
 | ✅ | Tower of Hanoi  | [my-medium-3](#my-medium-3) | [my_medium_3.cpp](/my_medium_3.cpp) |
@@ -211,6 +213,14 @@ Implement selection sort, bubble sort and insertion sort.
 # my-easy-3
 
 Implement a binary search algorithm.
+
+# my-easy-4
+
+Implement a cycle detection algorithm for lists and arrays.
+
+# my-easy-5
+
+Implement the following binary tree algorithms: inorder/postorder/preorder/level traversal (recursive and iterative), inversion of a tree, BFS, DFS.
 
 # my-medium-1
 

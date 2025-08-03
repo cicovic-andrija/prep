@@ -27,7 +27,7 @@
 
 #### 2.1. Coding + Algorithms
 
-- Main Task #1: Solve a set of ~50 LeetCode questions, with easy/medium/hard distribution of ~10/20/20.
+- Main Task #1: Solve a set of ~50 LeetCode questions, with easy/medium/hard distribution of ~10/25/15.
   - Good resource: _Cracking the Coding Interview_ book.
 - Main Task #2: Go through the most popular algorithms / patterns:
   - Conversion of recursive algorithms to iterative algorithms.
@@ -38,7 +38,7 @@
   - Binary heap buildout (top-k elements group of problems).
   - Matrix operations (multiplication, rotation, transposition, ...).
   - Linked list operations.
-  Binary tree operations (traversal, lookup, inversion, ...).
+  - Binary tree operations (traversal, lookup, inversion, ...).
   - Graphs - DFS, BFS and topological sorting.
   - Map / trie trees (common strings group of problems).
   - Matrix / grid operations for search of "islands".
@@ -48,6 +48,7 @@
 - Side Task #1: C++
   - Go over syntax to catch up on forgotten details.
   - Research most commonly used APIs from STL.
+  - Review the C++ concurrency model.
 - Side Task #2: Explore some of the common patterns:
   - Top K elements.
   - Merge K sorted collections.
