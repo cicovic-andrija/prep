@@ -38,7 +38,7 @@
 | ✅ | Matrix Rotation | [my-medium-1](#my-medium-1) | [my_medium_1.cpp](/my_medium_1.cpp) |
 | ✅ | Sorting (II)  | [my-medium-2](#my-medium-2) | [my_medium_2.cpp](/my_medium_2.cpp) |
 | ✅ | Tower of Hanoi  | [my-medium-3](#my-medium-3) | [my_medium_3.cpp](/my_medium_3.cpp) |
-| ❌ | Persistent K/V Store | [my-hard-1](#my-hard-1) | [my_hard_1.cpp](/my_hard_1.cpp) |
+| 🐉 | Persistent K/V Store | [my-hard-1](#my-hard-1) | [my_hard_1.cpp](/my_hard_1.cpp) |
 | ✅ | Generic Min-K Values | [my-hard-2](#my-hard-2) | [my_hard_2.cpp](/my_hard_2.cpp) |
 
 # lc-easy-1

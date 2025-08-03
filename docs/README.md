@@ -29,22 +29,53 @@
 
 - Main Task #1: Solve a set of ~50 LeetCode questions, with easy/medium/hard distribution of ~10/25/15.
   - Good resource: _Cracking the Coding Interview_ book.
-- Main Task #2: Go through the most popular algorithms / patterns:
+- Main Task #2: Go through the most common algorithms/patterns/topics:
   - Conversion of recursive algorithms to iterative algorithms.
-  - Various sorting algorithms (selection, insertion, quick, ...).
-  - Backtracking algorithms (e.g. N-Queens problem).
-  - Search / selection algorithms (binary search, QuickSelect, greedy search).
-    - Example: [Ship Packages Within D Days](/docs/PROBLEMS.md#lc-medium-8).
-  - Binary heap buildout (top-k elements group of problems).
+    - [Tower of Hanoi](/docs/PROBLEMS.md#my-medium-3)
+    - [Binary Tree Operations](/docs/PROBLEMS.md#my-easy-5)
+    - [Letter Combinations of a Phone Number](/docs/PROBLEMS.md#lc-medium-15)
+  - Various sorting algorithms.
+    - [Sorting (I)](/docs/PROBLEMS.md#my-easy-2)
+    - [Sorting (II)](/docs/PROBLEMS.md#my-medium-2)
+  - Search/selection algorithms.
+    - [Simple Binary Search](/docs/PROBLEMS.md#my-easy-3)
+    - [Ship Packages Within D Days](/docs/PROBLEMS.md#lc-medium-8).
+    - **TODO** | _QuickSelect_
+  - Backtracking.
+    - [N-Queens](/docs/PROBLEMS.md#lc-hard-6)
+  - Binary heap buildout.
+    - [Sorting (II)](/docs/PROBLEMS.md#my-medium-2) (heap sort)
+    - [Generic Min-K Values](/docs/PROBLEMS.md#my-hard-2)
   - Matrix operations (multiplication, rotation, transposition, ...).
+    - [Matrix Rotation](/docs/PROBLEMS.md#my-medium-1)
   - Linked list operations.
+    - [Merge Two Sorted Lists](/docs/PROBLEMS.md#lc-easy-2)
+    - [Floyd's Cycle Detection](/docs/PROBLEMS.md#my-easy-4)
+    - [Add Two Numbers](/docs/PROBLEMS.md#lc-medium-1)
+    - [Merge k Sorted Lists](/docs/PROBLEMS.md#lc-hard-2)
+    - [List Clone With A Random Pointer](/docs/PROBLEMS.md#lc-medium-10)
+    - [Reverse Nodes in k-Groups](/docs/PROBLEMS.md#lc-hard-4)
+  - Problems dealing with strings.
+    - [Valid Brackets](/docs/PROBLEMS.md#lc-easy-3)
+    - [Simplify Path](/docs/PROBLEMS.md#lc-medium-7)
+    - [Reverse Words](/docs/PROBLEMS.md#lc-medium-13)
+    - [Longest Palindrome](/docs/PROBLEMS.md#lc-medium-11)
   - Binary tree operations (traversal, lookup, inversion, ...).
+    - [Binary Tree Operations](/docs/PROBLEMS.md#my-easy-5)
   - Graphs - DFS, BFS and topological sorting.
-  - Map / trie trees (common strings group of problems).
-  - Matrix / grid operations for search of "islands".
+    - **TODO**
+  - Map/trie trees (common string group of problems).
+    - **TODO**
+  - Matrix/grid operations ("island" search).
+    - **TODO**
   - Dynamic programming.
+    - [Longest Palindrome](/docs/PROBLEMS.md#lc-medium-11)
+    - [Longest Common Subsequence](/docs/PROBLEMS.md#lc-medium-12)
   - Greedy algorithms.
-  - Divide and Conquer algorithms.
+    - [Candy](/docs/PROBLEMS.md#lc-hard-7)
+  - Divide-and-conquer algorithms.
+    - [Merge k Sorted Lists](/docs/PROBLEMS.md#lc-hard-2)
+    - [Median of Two Sorted Arrays](/docs/PROBLEMS.md#lc-hard-5)
 - Side Task #1: C++
   - Go over syntax to catch up on forgotten details.
   - Research most commonly used APIs from STL.
