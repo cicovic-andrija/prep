@@ -40,7 +40,7 @@
   - Search/selection algorithms.
     - [Simple Binary Search](/docs/PROBLEMS.md#my-easy-3)
     - [Ship Packages Within D Days](/docs/PROBLEMS.md#lc-medium-8).
-    - **TODO** | _QuickSelect_
+    - [Quickselect](/docs/PROBLEMS.md#my-medium-4).
   - Backtracking.
     - [N-Queens](/docs/PROBLEMS.md#lc-hard-6)
   - Binary heap buildout.
@@ -80,9 +80,7 @@
   - Go over syntax to catch up on forgotten details.
   - Research most commonly used APIs from STL.
   - Review the C++ concurrency model.
-- Side Task #2: Explore some of the common patterns:
-  - Top K elements.
-  - Merge K sorted collections.
+- Side Task #2: Explore other common patterns:
   - Two heaps - use two heaps to track median or balance elements in a stream.
   - Sliding window median - calculate median in a sliding window.
   - Scheduling - manage tasks or invervals using a heap for efficient scheduling.

@@ -38,6 +38,7 @@
 | ✅ | Matrix Rotation | [my-medium-1](#my-medium-1) | [my_medium_1.cpp](/my_medium_1.cpp) |
 | ✅ | Sorting (II)  | [my-medium-2](#my-medium-2) | [my_medium_2.cpp](/my_medium_2.cpp) |
 | ✅ | Tower of Hanoi  | [my-medium-3](#my-medium-3) | [my_medium_3.cpp](/my_medium_3.cpp) |
+| ✅ | Quickselect  | [my-medium-4](#my-medium-4) | [my_medium_4.cpp](/my_medium_4.cpp) |
 | 🐉 | Persistent K/V Store | [my-hard-1](#my-hard-1) | [my_hard_1.cpp](/my_hard_1.cpp) |
 | ✅ | Generic Min-K Values | [my-hard-2](#my-hard-2) | [my_hard_2.cpp](/my_hard_2.cpp) |
 
@@ -233,6 +234,10 @@ Implement quick sort and heap sort.
 # my-medium-3
 
 Demonstrate the solution of the Tower of Hanoi problem using both recursive and iterative algorithms.
+
+# my-medium-4
+
+Find the k-th smallest and k-th largest element of an array by using the Quickselect algorithm.
 
 # my-hard-1
 
