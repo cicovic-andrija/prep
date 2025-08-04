@@ -23,13 +23,16 @@
 | ✅ | Reverse Words | [lc-medium-13](#lc-medium-13) | [lc_medium_13.cpp](/lc_medium_13.cpp) |
 | ✅ | Generate Parentheses | [lc-medium-14](#lc-medium-14) | [lc_medium_14.cpp](/lc_medium_14.cpp) |
 | ✅ | Letter Combinations of a Phone Number | [lc-medium-15](#lc-medium-15) | [lc_medium_15.cpp](/lc_medium_15.cpp) |
+| ✅ | Number of Islands | [lc-medium-16](#lc-medium-16) | [lc_medium_16.cpp](/lc_medium_16.cpp) |
+| ✅ | Max Area of Island | [lc-medium-17](#lc-medium-17) | [lc_medium_17.cpp](/lc_medium_17.cpp) |
 | ✅ | Trapping Rain Water | [lc-hard-1](#lc-hard-1) | [lc_hard_1.cpp](/lc_hard_1.cpp) |
 | ✅ | Merge k Sorted Lists | [lc-hard-2](#lc-hard-2) | [lc_hard_2.cpp](/lc_hard_2.cpp) |
 | ✅ | Largest Rectangle in Histogram | [lc-hard-3](#lc-hard-3) | [lc_hard_3.cpp](/lc_hard_3.cpp) |
 | ✅ | Reverse Nodes in k-Groups | [lc-hard-4](#lc-hard-4) | [lc_hard_4.cpp](/lc_hard_4.cpp) |
 | ⚠️ | Median of Two Sorted Arrays | [lc-hard-5](#lc-hard-5) | [lc_hard_5.cpp](/lc_hard_5.cpp) |
-| 🐉 | N-Queens | [lc-hard-6](#lc-hard-6) | [lc_hard_6.cpp](/lc_hard_6.cpp) |
+| ✅ | N-Queens | [lc-hard-6](#lc-hard-6) | [lc_hard_6.cpp](/lc_hard_6.cpp) |
 | ✅ | Candy | [lc-hard-7](#lc-hard-7) | [lc_hard_7.cpp](/lc_hard_7.cpp) |
+| 🐉 | Sudoku Solver | [lc-hard-8](#lc-hard-8) | [lc_hard_8.cpp](/lc_hard_8.cpp) |
 | ✅ | Happy Who? | [my-easy-1](#my-easy-1) | [my_easy_1.cpp](/my_easy_1.cpp) |
 | ✅ | Sorting (I) | [my-easy-2](#my-easy-2) | [my_easy_2.cpp](/my_easy_2.cpp) |
 | ✅ | Simple Binary Search | [my-easy-3](#my-easy-3) | [my_easy_3.cpp](/my_easy_3.cpp) |
@@ -162,6 +165,14 @@ Given a string containing digits from 2-9 inclusive, return all possible letter 
 - 9: w, x, y, z
 
 Example: input: digits = "23" output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+
+# lc-medium-16
+
+Given an m x n 2D binary grid which represents a map of '1's (land) and '0's (water), return the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+
+# lc-medium-17
+
+You are given an m x n 2D binary grid which represents a map of '1's (land) and '0's (water). An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water. The area of an island is the number of cells in the island. Return the maximum area of an island found in the grid. If there is no island, return 0.
 
 # lc-hard-1
 

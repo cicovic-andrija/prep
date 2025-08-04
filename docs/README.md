@@ -67,7 +67,9 @@
   - Map/trie trees (common string group of problems).
     - **TODO**
   - Matrix/grid operations ("island" search).
-    - **TODO**
+    - [Number of Islands](/docs/PROBLEMS.md#lc-medium-16)
+    - [Max Area of Island](/docs/PROBLEMS.md#lc-medium-17)
+    - **TODO** | _Disjoint Set Union_
   - Dynamic programming.
     - [Longest Palindrome](/docs/PROBLEMS.md#lc-medium-11)
     - [Longest Common Subsequence](/docs/PROBLEMS.md#lc-medium-12)
