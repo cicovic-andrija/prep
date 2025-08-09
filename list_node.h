@@ -12,7 +12,7 @@ struct ListNode {
     ListNode(int v, ListNode *n): val(v), next(n) {}
 };
 
-void print_list(ListNode *head)
+inline void print_list(ListNode *head)
 {
     if (!head) {
         std::cout << "(the list is empty)";

@@ -39,8 +39,8 @@
     - [Sorting (II)](/docs/PROBLEMS.md#my-medium-2)
   - Search/selection algorithms.
     - [Simple Binary Search](/docs/PROBLEMS.md#my-easy-3)
-    - [Ship Packages Within D Days](/docs/PROBLEMS.md#lc-medium-8).
-    - [Quickselect](/docs/PROBLEMS.md#my-medium-4).
+    - [Ship Packages Within D Days](/docs/PROBLEMS.md#lc-medium-8)
+    - [Quickselect](/docs/PROBLEMS.md#my-medium-4)
   - Backtracking.
     - [N-Queens](/docs/PROBLEMS.md#lc-hard-6)
   - Binary heap buildout.
@@ -62,14 +62,14 @@
     - [Longest Palindrome](/docs/PROBLEMS.md#lc-medium-11)
   - Binary tree operations (traversal, lookup, inversion, ...).
     - [Binary Tree Operations](/docs/PROBLEMS.md#my-easy-5)
-  - Graphs - DFS, BFS and topological sorting.
+  - Graphs - DFS, BFS, Dijkstra and topological sorting (Kahn).
     - **TODO**
-  - Map/trie trees (common string group of problems).
-    - **TODO**
+  - Trie tree/map problems.
+    - [Longest Word in Dictionary](/docs/PROBLEMS.md#lc-medium-18)
   - Matrix/grid operations ("island" search).
+    - [Island Perimeter](/docs/PROBLEMS.md#lc-easy-5)
     - [Number of Islands](/docs/PROBLEMS.md#lc-medium-16)
     - [Max Area of Island](/docs/PROBLEMS.md#lc-medium-17)
-    - **TODO** | _Disjoint Set Union_
   - Dynamic programming.
     - [Longest Palindrome](/docs/PROBLEMS.md#lc-medium-11)
     - [Longest Common Subsequence](/docs/PROBLEMS.md#lc-medium-12)
@@ -82,10 +82,11 @@
   - Go over syntax to catch up on forgotten details.
   - Research most commonly used APIs from STL.
   - Review the C++ concurrency model.
+  - Review C++ I/O (stream) APIs.
 - Side Task #2: Explore other common patterns:
   - Two heaps - use two heaps to track median or balance elements in a stream.
   - Sliding window median - calculate median in a sliding window.
-  - Scheduling - manage tasks or invervals using a heap for efficient scheduling.
+  - Scheduling - manage tasks or intervals using a heap for efficient scheduling.
 
 #### 2.2. System Design / System Programming
 

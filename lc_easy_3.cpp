@@ -3,20 +3,30 @@
 #include "markers.h"
 
 #include <string>
+#include <stack>
+using std::stack;
 
 // Passed 100 test cases on LC.
-bool run(std::string str);
+bool check_iterative(std::string str);
+bool check_recursive(std::string str);
 
 int main()
 {
     __BEGIN
 
-    std::cout << run("()") << std::endl; // true
-    std::cout << run("(]") << std::endl; // false
-    std::cout << run("({})") << std::endl; // true
-    std::cout << run("{}([)]") << std::endl; // false
-    std::cout << run("({[]}){[]}()") << std::endl; // true
-    std::cout << run("()}") << std::endl; // false
+    std::cout << check_recursive("()") << std::endl; // true
+    std::cout << check_recursive("(]") << std::endl; // false
+    std::cout << check_recursive("({})") << std::endl; // true
+    std::cout << check_recursive("{}([)]") << std::endl; // false
+    std::cout << check_recursive("({[]}){[]}()") << std::endl; // true
+    std::cout << check_recursive("()}") << std::endl; // false
+
+    std::cout << check_iterative("()") << std::endl; // true
+    std::cout << check_iterative("(]") << std::endl; // false
+    std::cout << check_iterative("({})") << std::endl; // true
+    std::cout << check_iterative("{}([)]") << std::endl; // false
+    std::cout << check_iterative("({[]}){[]}()") << std::endl; // true
+    std::cout << check_iterative("()}") << std::endl; // false
 
     __END
 }
@@ -27,6 +37,23 @@ char matching(const char opening)
     if (opening == '{') return '}';
     if (opening == '[') return ']';
     return '\0';
+}
+
+bool check_iterative(std::string str)
+{
+    stack<char> opened;
+    for (const char c : str) {
+        switch (c) {
+        case '{': case '(': case '[':
+            opened.push(c);
+            break;
+        case '}': case ')': case ']':
+            if (opened.empty()) return false;
+            if (c != matching(opened.top())) return false;
+            opened.pop();
+        }
+    }
+    return opened.empty();
 }
 
 const char *explore(const char *s, const char until, bool &is_valid)
@@ -49,7 +76,7 @@ const char *explore(const char *s, const char until, bool &is_valid)
     return nullptr;
 }
 
-bool run(std::string str)
+bool check_recursive(std::string str)
 {
     const char *s = str.c_str();
     bool is_valid = true;

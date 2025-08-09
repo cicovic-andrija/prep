@@ -8,6 +8,7 @@
 | ✅ | Merge Two Sorted Lists | [lc-easy-2](#lc-easy-2) | [lc_easy_2.cpp](/lc_easy_2.cpp) |
 | ✅ | Valid Brackets | [lc-easy-3](#lc-easy-3) | [lc_easy_3.cpp](/lc_easy_3.cpp) |
 | ✅ | Ugly Number (I) | [lc-easy-4](#lc-easy-4) | [lc_easy_4.cpp](/lc_easy_4.cpp) |
+| ✅ | Island Perimeter | [lc-easy-5](#lc-easy-5) | [lc_easy_5.cpp](/lc_easy_5.cpp) |
 | ✅ | Add Two Numbers | [lc-medium-1](#lc-medium-1) | [lc_medium_1.cpp](/lc_medium_1.cpp) |
 | ✅ | Factorial Trailing Zeroes | [lc-medium-2](#lc-medium-2) | [lc_medium_2.cpp](/lc_medium_2.cpp) |
 | ⚠️ | Ugly Number (II) | [lc-medium-3](#lc-medium-3) | [lc_medium_3.cpp](/lc_medium_3.cpp) |
@@ -25,6 +26,7 @@
 | ✅ | Letter Combinations of a Phone Number | [lc-medium-15](#lc-medium-15) | [lc_medium_15.cpp](/lc_medium_15.cpp) |
 | ✅ | Number of Islands | [lc-medium-16](#lc-medium-16) | [lc_medium_16.cpp](/lc_medium_16.cpp) |
 | ✅ | Max Area of Island | [lc-medium-17](#lc-medium-17) | [lc_medium_17.cpp](/lc_medium_17.cpp) |
+| ✅ | Longest Word in Dictionary | [lc-medium-18](#lc-medium-18) | [lc_medium_18.cpp](/lc_medium_18.cpp) |
 | ✅ | Trapping Rain Water | [lc-hard-1](#lc-hard-1) | [lc_hard_1.cpp](/lc_hard_1.cpp) |
 | ✅ | Merge k Sorted Lists | [lc-hard-2](#lc-hard-2) | [lc_hard_2.cpp](/lc_hard_2.cpp) |
 | ✅ | Largest Rectangle in Histogram | [lc-hard-3](#lc-hard-3) | [lc_hard_3.cpp](/lc_hard_3.cpp) |
@@ -33,6 +35,7 @@
 | ✅ | N-Queens | [lc-hard-6](#lc-hard-6) | [lc_hard_6.cpp](/lc_hard_6.cpp) |
 | ✅ | Candy | [lc-hard-7](#lc-hard-7) | [lc_hard_7.cpp](/lc_hard_7.cpp) |
 | 🐉 | Sudoku Solver | [lc-hard-8](#lc-hard-8) | [lc_hard_8.cpp](/lc_hard_8.cpp) |
+| 🐉 | Longest Valid Parentheses | [lc-hard-9](#lc-hard-9) | [lc_hard_9.cpp](/lc_hard_9.cpp) |
 | ✅ | Happy Who? | [my-easy-1](#my-easy-1) | [my_easy_1.cpp](/my_easy_1.cpp) |
 | ✅ | Sorting (I) | [my-easy-2](#my-easy-2) | [my_easy_2.cpp](/my_easy_2.cpp) |
 | ✅ | Simple Binary Search | [my-easy-3](#my-easy-3) | [my_easy_3.cpp](/my_easy_3.cpp) |
@@ -60,6 +63,14 @@ Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
 # lc-easy-4
 
 An ugly number is a positive integer which does not have a prime factor other than 2, 3, and 5. Given an integer n, return true if n is an ugly number.
+
+# lc-easy-5
+
+You are given an m x n grid representing a map where grid[i][j] = 1 represents land and grid[i][j] = 0 represents water. Grid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells). The island doesn't have "lakes", meaning the water inside isn't connected to the water around the island. One cell is a square with side length 1. Determine the perimeter of the island.
+
+Example: input: grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]] output: 16
+
+![lc-easy-5-img](/docs/img/lc-easy-5.png)
 
 # lc-medium-1
 
@@ -174,6 +185,12 @@ Given an m x n 2D binary grid which represents a map of '1's (land) and '0's (wa
 
 You are given an m x n 2D binary grid which represents a map of '1's (land) and '0's (water). An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water. The area of an island is the number of cells in the island. Return the maximum area of an island found in the grid. If there is no island, return 0.
 
+# lc-medium-18
+
+Given an array of strings words representing an English Dictionary, return the longest word in the array that can be built one character at a time by other words in the array. Note that the word should be built from left to right with each additional character being added to the end of a previous word (i.e., for the longest word that satisfies this condition, all of its prefixes must be present in the dictionary). If there is more than one possible answer, return the longest word with the smallest lexicographical order.  If there is no answer, return the empty string.
+
+Example: input: ["a","banana","app","appl","ap","apply","apple"] output: "apple" (same length as "apply" but "smaller")
+
 # lc-hard-1
 
 Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
@@ -213,6 +230,14 @@ Example: input: n = 4 output: [[".Q..","...Q","Q...","..Q."],["..Q.","Q...","...
 # lc-hard-7
 
 There are n children standing in a line. Each child is assigned a rating value given in the integer array ratings. You are giving candies to these children subjected to the following requirements: (1) each child must have at least one candy, and (2) children with a higher rating get more candies than their neighbors. Return the minimum number of candies you need to have to distribute the candies to the children.
+
+# lc-hard-8
+
+Write a program to solve a 9x9 Sudoku puzzle by filling the empty cells. A sudoku solution must satisfy all of the following rules: (1) each of the digits 1-9 must occur exactly once in each row, (2) each of the digits 1-9 must occur exactly once in each column, and (3) each of the digits 1-9 must occur exactly once in each of the 9 3x3 sub-boxes of the grid. The '.' character indicates empty cells.
+
+# lc-hard-9
+
+Given a string containing just the characters '(' and ')', return the length of the longest valid (well-formed) parentheses substring.
 
 # my-easy-1
 
