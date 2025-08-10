@@ -27,9 +27,9 @@
 
 #### 2.1. Coding + Algorithms
 
-- Main Task #1: Solve a set of ~50 LeetCode questions, with easy/medium/hard distribution of ~10/25/15.
+- Main Task #1 - Solve a set of ~50 LeetCode questions, with easy/medium/hard distribution of ~10/25/15.
   - Good resource: _Cracking the Coding Interview_ book.
-- Main Task #2: Go through the most common algorithms/patterns/topics:
+- Main Task #2 - Cover the most common algorithms/patterns/topics:
   - Conversion of recursive algorithms to iterative algorithms.
     - [Tower of Hanoi](/docs/PROBLEMS.md#my-medium-3)
     - [Binary Tree Operations](/docs/PROBLEMS.md#my-easy-5)
@@ -63,7 +63,7 @@
   - Binary tree operations (traversal, lookup, inversion, ...).
     - [Binary Tree Operations](/docs/PROBLEMS.md#my-easy-5)
   - Graphs - DFS, BFS, Dijkstra and topological sorting (Kahn).
-    - **TODO**
+    - [Dijkstra and Kahn](/docs/PROBLEMS.md#my-hard-1)
   - Trie tree/map problems.
     - [Longest Word in Dictionary](/docs/PROBLEMS.md#lc-medium-18)
   - Matrix/grid operations ("island" search).
@@ -78,24 +78,13 @@
   - Divide-and-conquer algorithms.
     - [Merge k Sorted Lists](/docs/PROBLEMS.md#lc-hard-2)
     - [Median of Two Sorted Arrays](/docs/PROBLEMS.md#lc-hard-5)
-- Side Task #1: C++
+- Side Task #1 - C++
   - Go over syntax to catch up on forgotten details.
-  - Research most commonly used APIs from STL.
+  - Research most commonly used APIs and data structures from STL.
   - Review the C++ concurrency model.
   - Review C++ I/O (stream) APIs.
-- Side Task #2: Explore other common patterns:
+  - Review C++ functional programming model.
+- Side Task #2 - Explore other common patterns:
   - Two heaps - use two heaps to track median or balance elements in a stream.
   - Sliding window median - calculate median in a sliding window.
   - Scheduling - manage tasks or intervals using a heap for efficient scheduling.
-
-#### 2.2. System Design / System Programming
-
-TBD.
-
-#### 2.3. Architecture Design
-
-TBD.
-
-#### 2.4. Cross-functional / Behavioral
-
-TBD.
