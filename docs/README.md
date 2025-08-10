@@ -21,13 +21,13 @@
 ### 1. Presentation
 
 - Write your CV.
-- Update your LinkedIn and GitHub profiles with latest information. Make sure it is consistent with the CV.
+- Update your LinkedIn/website and GitHub profiles with latest information. Make sure it is consistent with the CV.
 
 ### 2. Preparation Plan
 
 #### 2.1. Coding + Algorithms
 
-- Main Task #1 - Solve a set of ~50 LeetCode questions, with easy/medium/hard distribution of ~10/25/15.
+- Main Task #1 - Solve a set of ~50 LeetCode-style questions, with easy/medium/hard distribution of ~10/25/15.
   - Good resource: _Cracking the Coding Interview_ book.
 - Main Task #2 - Cover the most common algorithms/patterns/topics:
   - Conversion of recursive algorithms to iterative algorithms.

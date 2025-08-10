@@ -1,14 +1,13 @@
 // #lc-medium-18
 
 #include "markers.h"
+#include "trie_node.h"
 
 #include <cstdlib>
 #include <algorithm>
-#include <map>
 #include <string>
 #include <vector>
 using std::string;
-using std::map;
 using std::vector;
 
 // Passed 59 test cases on LC.
@@ -23,13 +22,6 @@ int main()
 
     __END
 }
-
-struct TrieNode {
-    char ch;
-    bool word_end;
-    map<char, TrieNode *> children;
-    TrieNode(): ch('\0'), word_end(false) {}
-};
 
 template<typename T>
 T *allocate()
