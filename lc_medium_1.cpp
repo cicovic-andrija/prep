@@ -38,6 +38,13 @@ int main()
     print_list(result);
     std::cout << std::endl;
 
+    result = run(
+        new ListNode(2, new ListNode(1)),
+        new ListNode(3)
+    );
+    print_list(result);
+    std::cout << std::endl;
+
     __END
 }
 
@@ -46,7 +53,7 @@ ListNode *run(ListNode *node_1, ListNode *node_2)
     if (!node_1 || !node_2) return nullptr;
 
     ListNode *head = nullptr;
-    ListNode *current = new ListNode(0);;
+    ListNode *current = new ListNode(0);
     int carry = 0;
     while (node_1 || node_2)
     {

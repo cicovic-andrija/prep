@@ -4,9 +4,11 @@
 
 #include <algorithm>
 #include <string>
+#include <stack>
 using std::string;
+using std::stack;
 
-// Passed XXX test cases on LC.
+// Passed 232 test cases on LC.
 int longest_valid_parentheses(const string& s);
 
 int main()
@@ -20,23 +22,29 @@ int main()
     __END
 }
 
-bool check_parens(const string &s)
+int longest_valid_parentheses(const string& s)
 {
-    int counter = 0;
+    int max_len = 0;
+    int len = s.length();
+    stack<int> st;
 
-    for (const char c : s) {
-        if (c == '(') {
-            ++counter;
-        } else { // ')'
-            if (counter == 0) return false;
-            --counter;
+    st.push(-1);
+    for (int i = 0; i < len; ++i)
+    {
+        if (s[i] == '(')
+        {
+            st.push(i);
+        }
+        else // ')'
+        {
+            st.pop();
+            if (st.empty()) {
+                st.push(i);
+            } else {
+                max_len = std::max(max_len, i - st.top());
+            }
         }
     }
 
-    return counter == 0;
-}
-
-int longest_valid_parentheses(const string& s)
-{
-    if (s.empty()) return 0;
+    return max_len;
 }

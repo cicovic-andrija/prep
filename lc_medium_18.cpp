@@ -31,7 +31,7 @@ T *allocate()
     return p;
 }
 
-void trie_search_dfs_rec(TrieNode *current, string prefix, string &longest)
+void trie_search_dfs_rec(TrieNode *current, string prefix, string& longest)
 {
     if (current == nullptr || !current->word_end) return;
 

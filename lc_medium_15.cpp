@@ -87,7 +87,7 @@ vector<string> letter_combinations(string digits)
     return combinations;
 }
 
-void letter_combinations_recursive_int(string prefix, string rest, vector<string> &combinations)
+void letter_combinations_recursive_int(string prefix, string rest, vector<string>& combinations)
 {
     if (rest.empty()) {
         combinations.push_back(prefix);

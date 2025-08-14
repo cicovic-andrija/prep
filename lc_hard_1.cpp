@@ -53,7 +53,6 @@ bool find_next_local_maximum(const std::vector<int> &arr, int &pos, int &height,
         if ((i == 0 || arr[i-1] <= arr[i]) && (i == arr.size()-1 || arr[i+1] < arr[i])) {
             pos = i;
             height = arr[i];
-            std::cout << "local max: pos " << pos << " height " << height << std::endl;
             return true;
         }
     }
@@ -83,10 +82,6 @@ int run(std::vector<int> arr)
         if (total == prev_total) {
             break;
         }
-        // for (int i = 0; i < arr.size(); ++i) {
-        //     std::cout << arr[i] << " ";
-        // }
-        // std::cout << std::endl;
     }
 
     return total;

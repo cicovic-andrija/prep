@@ -14,7 +14,7 @@
 | ⚠️ | Ugly Number (II) | [lc-medium-3](#lc-medium-3) | [lc_medium_3.cpp](/lc_medium_3.cpp) |
 | ✅ | Min. Rectangles to Cover Points | [lc-medium-4](#lc-medium-4) | [lc_medium_4.cpp](/lc_medium_4.cpp) |
 | ✅ | Sort Colors | [lc-medium-5](#lc-medium-5) | [lc_medium_5.cpp](/lc_medium_5.cpp) |
-| ✅ | Next Permutation | [lc-medium-6](#lc-medium-6) | [lc_medium_6.cpp](/lc_medium_6.cpp) |
+| ⚠️ | Next Permutation | [lc-medium-6](#lc-medium-6) | [lc_medium_6.cpp](/lc_medium_6.cpp) |
 | ✅ | Simplify Path | [lc-medium-7](#lc-medium-7) | [lc_medium_7.cpp](/lc_medium_7.cpp) |
 | ✅ | Ship Packages Within D Days | [lc-medium-8](#lc-medium-8) | [lc_medium_8.cpp](/lc_medium_8.cpp) |
 | ✅ | Gas Stations | [lc-medium-9](#lc-medium-9) | [lc_medium_9.cpp](/lc_medium_9.cpp) |
@@ -35,17 +35,18 @@
 | ✅ | N-Queens | [lc-hard-6](#lc-hard-6) | [lc_hard_6.cpp](/lc_hard_6.cpp) |
 | ✅ | Candy | [lc-hard-7](#lc-hard-7) | [lc_hard_7.cpp](/lc_hard_7.cpp) |
 | 🐉 | Sudoku Solver | [lc-hard-8](#lc-hard-8) | [lc_hard_8.cpp](/lc_hard_8.cpp) |
-| 🐉 | Longest Valid Parentheses | [lc-hard-9](#lc-hard-9) | [lc_hard_9.cpp](/lc_hard_9.cpp) |
+| ⚠️ | Longest Valid Parentheses | [lc-hard-9](#lc-hard-9) | [lc_hard_9.cpp](/lc_hard_9.cpp) |
 | ✅ | Happy Who? | [my-easy-1](#my-easy-1) | [my_easy_1.cpp](/my_easy_1.cpp) |
 | ✅ | Sorting (I) | [my-easy-2](#my-easy-2) | [my_easy_2.cpp](/my_easy_2.cpp) |
 | ✅ | Simple Binary Search | [my-easy-3](#my-easy-3) | [my_easy_3.cpp](/my_easy_3.cpp) |
 | ✅ | Floyd's Cycle Detection | [my-easy-4](#my-easy-4) | [my_easy_4.cpp](/my_easy_4.cpp) |
 | ✅ | Binary Tree Operations | [my-easy-5](#my-easy-5) | [my_easy_5.cpp](/my_easy_5.cpp) |
+| ✅ | Matrix Multiplication | [my-easy-6](#my-easy-6) | [my_easy_6.cpp](/my_easy_6.cpp) |
 | ✅ | Matrix Rotation | [my-medium-1](#my-medium-1) | [my_medium_1.cpp](/my_medium_1.cpp) |
 | ✅ | Sorting (II)  | [my-medium-2](#my-medium-2) | [my_medium_2.cpp](/my_medium_2.cpp) |
 | ✅ | Tower of Hanoi  | [my-medium-3](#my-medium-3) | [my_medium_3.cpp](/my_medium_3.cpp) |
 | ✅ | Quickselect  | [my-medium-4](#my-medium-4) | [my_medium_4.cpp](/my_medium_4.cpp) |
-| ✅ | Dijkstra and Kahn | [my-hard-1](#my-hard-1) | [my_hard_1.cpp](/my_hard_1.cpp) |
+| 🐉 | Dijkstra and Kahn | [my-hard-1](#my-hard-1) | [my_hard_1.cpp](/my_hard_1.cpp) |
 | ✅ | Generic Min-K Values | [my-hard-2](#my-hard-2) | [my_hard_2.cpp](/my_hard_2.cpp) |
 
 # lc-easy-1
@@ -258,6 +259,10 @@ Implement a cycle detection algorithm for lists and arrays.
 # my-easy-5
 
 Implement the following binary tree algorithms: inorder/postorder/preorder/level traversal (recursive and iterative), inversion of a tree, BFS, DFS.
+
+# my-easy-6
+
+Implement matrix multiplication.
 
 # my-medium-1
 

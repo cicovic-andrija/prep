@@ -47,6 +47,7 @@
     - [Sorting (II)](/docs/PROBLEMS.md#my-medium-2) (heap sort)
     - [Generic Min-K Values](/docs/PROBLEMS.md#my-hard-2)
   - Matrix operations (multiplication, rotation, transposition, ...).
+    - [Matrix Multiplication](/docs/PROBLEMS.md#my-easy-6)
     - [Matrix Rotation](/docs/PROBLEMS.md#my-medium-1)
   - Linked list operations.
     - [Merge Two Sorted Lists](/docs/PROBLEMS.md#lc-easy-2)

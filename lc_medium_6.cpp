@@ -8,7 +8,7 @@
 using intvec = std::vector<int>;
 
 // Passed 266 test cases on LC.
-void next_permutation(intvec &current);
+void next_permutation(intvec& current);
 
 int main()
 {
@@ -29,7 +29,7 @@ int main()
     __END
 }
 
-bool next_subpermutation(intvec &current, int start, int end)
+bool next_subpermutation(intvec& current, int start, int end)
 {
     if (start == end) return true;
 
@@ -46,7 +46,7 @@ bool next_subpermutation(intvec &current, int start, int end)
     return false; // this is not the final subpermutation
 }
 
-void next_permutation(intvec &current)
+void next_permutation(intvec& current)
 {
     if (current.size() < 2) return;
 
