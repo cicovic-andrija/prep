@@ -42,6 +42,7 @@
 | ✅ | Floyd's Cycle Detection | [my-easy-4](#my-easy-4) | [my_easy_4.cpp](/my_easy_4.cpp) |
 | ✅ | Binary Tree Operations | [my-easy-5](#my-easy-5) | [my_easy_5.cpp](/my_easy_5.cpp) |
 | ✅ | Matrix Multiplication | [my-easy-6](#my-easy-6) | [my_easy_6.cpp](/my_easy_6.cpp) |
+| ✅ | Top-K Largest | [my-easy-7](#my-easy-7) | [my_easy_7.cpp](/my_easy_7.cpp) |
 | ✅ | Matrix Rotation | [my-medium-1](#my-medium-1) | [my_medium_1.cpp](/my_medium_1.cpp) |
 | ✅ | Sorting (II)  | [my-medium-2](#my-medium-2) | [my_medium_2.cpp](/my_medium_2.cpp) |
 | ✅ | Tower of Hanoi  | [my-medium-3](#my-medium-3) | [my_medium_3.cpp](/my_medium_3.cpp) |
@@ -263,6 +264,10 @@ Implement the following binary tree algorithms: inorder/postorder/preorder/level
 # my-easy-6
 
 Implement matrix multiplication.
+
+# my-easy-7
+
+Write an algorithm that returns the top k largest elements in a given array of integers.
 
 # my-medium-1
 
